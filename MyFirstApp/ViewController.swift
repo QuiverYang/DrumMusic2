@@ -63,7 +63,7 @@ class ViewController: UIViewController {
         }
         
         let numberOfChannels = 4
-        musicaudioPlayer = creatAudioPlayer(fileName: "JC", fileType: "mp3", volume: 0.8)
+        musicaudioPlayer = creatAudioPlayer(fileName: "JC", fileType: "mp3", volume: 0.9)
         
         bassDrumPlayers = creatAudioPlayerArray(fileName: "bass_drum", fileType: "mp3", volume: 1.0, number: numberOfChannels)
         drum1Players = creatAudioPlayerArray(fileName: "drum1", fileType: "mp3", volume: 1.0, number: numberOfChannels)
