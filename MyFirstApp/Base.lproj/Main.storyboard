@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,114 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyFirstApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xcU-G9-n7d">
+                                <rect key="frame" x="0.0" y="20" width="160" height="182.5"/>
+                                <color key="backgroundColor" red="0.30835098783403769" green="0.97461380251244456" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="bassdrum"/>
+                                <connections>
+                                    <action selector="bassDrumButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xyQ-a2-Wh1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsS-jS-Le6">
+                                <rect key="frame" x="160" y="20" width="160" height="182.5"/>
+                                <color key="backgroundColor" red="0.29435175791521895" green="1" blue="0.27013453857141467" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="drum1"/>
+                                <connections>
+                                    <action selector="bassDrumButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UDY-Ij-ETI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j1Y-VW-jup">
+                                <rect key="frame" x="0.0" y="202.5" width="160" height="183"/>
+                                <color key="backgroundColor" red="0.94713322665606015" green="1" blue="0.30053468249159676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="guitar"/>
+                                <connections>
+                                    <action selector="bassDrumButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YwQ-8Z-9O0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6hB-qz-FhL">
+                                <rect key="frame" x="160" y="202.5" width="160" height="182.5"/>
+                                <color key="backgroundColor" red="0.81935859721677373" green="1" blue="0.94533073871277107" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="japanese_drum"/>
+                                <connections>
+                                    <action selector="bassDrumButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NfW-Ss-qOD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ylG-2U-DQS">
+                                <rect key="frame" x="0.0" y="385.5" width="160" height="182.5"/>
+                                <color key="backgroundColor" red="0.94745026455301196" green="0.69898898764141482" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" backgroundImage="small_drum"/>
+                                <connections>
+                                    <action selector="bassDrumButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yBT-lL-ZuI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A2y-zO-V4H">
+                                <rect key="frame" x="160" y="385" width="160" height="182.5"/>
+                                <color key="backgroundColor" red="0.85855817031427617" green="1" blue="0.6168925354351511" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="play"/>
+                                <connections>
+                                    <action selector="musicPlayButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4PO-Bv-OnC"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="j1Y-VW-jup" firstAttribute="top" secondItem="xcU-G9-n7d" secondAttribute="bottom" id="1Ne-7S-M2b"/>
+                            <constraint firstItem="JsS-jS-Le6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="1jv-U8-uwZ"/>
+                            <constraint firstItem="A2y-zO-V4H" firstAttribute="leading" secondItem="ylG-2U-DQS" secondAttribute="trailing" id="2jR-4r-8Jt"/>
+                            <constraint firstItem="6hB-qz-FhL" firstAttribute="leading" secondItem="j1Y-VW-jup" secondAttribute="trailing" id="3Oe-va-YAV"/>
+                            <constraint firstItem="j1Y-VW-jup" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5vy-LP-EyA"/>
+                            <constraint firstItem="A2y-zO-V4H" firstAttribute="width" secondItem="xcU-G9-n7d" secondAttribute="width" id="8Rk-Vv-GDm"/>
+                            <constraint firstItem="xcU-G9-n7d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="AfJ-3N-NIV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="A2y-zO-V4H" secondAttribute="trailing" id="C6R-T2-x4L"/>
+                            <constraint firstItem="ylG-2U-DQS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HUC-uV-bIU"/>
+                            <constraint firstItem="xcU-G9-n7d" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="N0v-fL-Ym3"/>
+                            <constraint firstItem="A2y-zO-V4H" firstAttribute="top" secondItem="6hB-qz-FhL" secondAttribute="bottom" id="Nds-Lw-URN"/>
+                            <constraint firstItem="ylG-2U-DQS" firstAttribute="height" secondItem="xcU-G9-n7d" secondAttribute="height" id="RRG-DA-LYW"/>
+                            <constraint firstItem="JsS-jS-Le6" firstAttribute="height" secondItem="xcU-G9-n7d" secondAttribute="height" id="S5u-TO-Odk"/>
+                            <constraint firstItem="A2y-zO-V4H" firstAttribute="height" secondItem="xcU-G9-n7d" secondAttribute="height" id="ToD-i7-0rr"/>
+                            <constraint firstItem="6hB-qz-FhL" firstAttribute="top" secondItem="JsS-jS-Le6" secondAttribute="bottom" id="V4L-9Z-s7I"/>
+                            <constraint firstItem="JsS-jS-Le6" firstAttribute="width" secondItem="xcU-G9-n7d" secondAttribute="width" id="YS2-Kf-IQF"/>
+                            <constraint firstItem="ylG-2U-DQS" firstAttribute="top" secondItem="j1Y-VW-jup" secondAttribute="bottom" id="d1v-Nl-19W"/>
+                            <constraint firstItem="ylG-2U-DQS" firstAttribute="width" secondItem="xcU-G9-n7d" secondAttribute="width" id="eQC-p0-rb5"/>
+                            <constraint firstItem="j1Y-VW-jup" firstAttribute="width" secondItem="xcU-G9-n7d" secondAttribute="width" id="gz2-zo-qYN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="A2y-zO-V4H" secondAttribute="bottom" id="gzo-u4-0FY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JsS-jS-Le6" secondAttribute="trailing" id="hCS-7R-cZs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ylG-2U-DQS" secondAttribute="bottom" id="jSS-rw-uQZ"/>
+                            <constraint firstItem="JsS-jS-Le6" firstAttribute="leading" secondItem="xcU-G9-n7d" secondAttribute="trailing" id="mHi-pC-kM7"/>
+                            <constraint firstItem="6hB-qz-FhL" firstAttribute="width" secondItem="xcU-G9-n7d" secondAttribute="width" id="rgZ-iF-RVw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6hB-qz-FhL" secondAttribute="trailing" id="usV-Ii-QqL"/>
+                            <constraint firstItem="j1Y-VW-jup" firstAttribute="height" secondItem="xcU-G9-n7d" secondAttribute="height" id="wnW-Ak-CXg"/>
+                            <constraint firstItem="6hB-qz-FhL" firstAttribute="height" secondItem="xcU-G9-n7d" secondAttribute="height" id="wzf-B0-pXo"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="bassDrumPlayButton" destination="xcU-G9-n7d" id="xdW-Po-aol"/>
+                        <outlet property="drum1PlayButton" destination="JsS-jS-Le6" id="sEN-7W-9b1"/>
+                        <outlet property="guitarPlayButton" destination="j1Y-VW-jup" id="9Wn-iR-vI1"/>
+                        <outlet property="japaneseDrum1PlayButton" destination="6hB-qz-FhL" id="Z64-tX-xl1"/>
+                        <outlet property="musicPlayButton" destination="A2y-zO-V4H" id="aex-6W-afo"/>
+                        <outlet property="smallDrum1PlayButton" destination="ylG-2U-DQS" id="qEr-Go-kbI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="30.134932533733135"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bassdrum" width="480" height="480"/>
+        <image name="drum1" width="3328" height="3236"/>
+        <image name="guitar" width="500" height="500"/>
+        <image name="japanese_drum" width="355" height="326"/>
+        <image name="play" width="225" height="225"/>
+        <image name="small_drum" width="600" height="600"/>
+    </resources>
+    <color key="tintColor" red="1" green="0.26163576918180576" blue="0.76325180730685283" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

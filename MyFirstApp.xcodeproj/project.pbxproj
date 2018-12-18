@@ -14,6 +14,13 @@
 		214A8F2421187E6D00598FBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214A8F2221187E6D00598FBB /* LaunchScreen.storyboard */; };
 		214A8F2F21187E6D00598FBB /* MyFirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214A8F2E21187E6D00598FBB /* MyFirstAppTests.swift */; };
 		214A8F3A21187E6D00598FBB /* MyFirstAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214A8F3921187E6D00598FBB /* MyFirstAppUITests.swift */; };
+		21A3598F211B190D004E33D4 /* 于文文《體面》動態歌詞版 【前任3再見前任 插曲】.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21A3598E211B190D004E33D4 /* 于文文《體面》動態歌詞版 【前任3再見前任 插曲】.mp3 */; };
+		21A35991211B3004004E33D4 /* JC.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21A35990211B3004004E33D4 /* JC.mp3 */; };
+		21F5534F2123156A0075B6C9 /* small_drum1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21F5534A2123156A0075B6C9 /* small_drum1.mp3 */; };
+		21F553502123156A0075B6C9 /* guitar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21F5534B2123156A0075B6C9 /* guitar.mp3 */; };
+		21F553512123156A0075B6C9 /* drum1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21F5534C2123156A0075B6C9 /* drum1.mp3 */; };
+		21F553522123156A0075B6C9 /* bass_drum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21F5534D2123156A0075B6C9 /* bass_drum.mp3 */; };
+		21F553532123156A0075B6C9 /* Japanese_drum1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21F5534E2123156A0075B6C9 /* Japanese_drum1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		214A8F3521187E6D00598FBB /* MyFirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		214A8F3921187E6D00598FBB /* MyFirstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppUITests.swift; sourceTree = "<group>"; };
 		214A8F3B21187E6D00598FBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A3598E211B190D004E33D4 /* 于文文《體面》動態歌詞版 【前任3再見前任 插曲】.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "于文文《體面》動態歌詞版 【前任3再見前任 插曲】.mp3"; sourceTree = "<group>"; };
+		21A35990211B3004004E33D4 /* JC.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JC.mp3; sourceTree = "<group>"; };
+		21F5534A2123156A0075B6C9 /* small_drum1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = small_drum1.mp3; sourceTree = "<group>"; };
+		21F5534B2123156A0075B6C9 /* guitar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guitar.mp3; sourceTree = "<group>"; };
+		21F5534C2123156A0075B6C9 /* drum1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drum1.mp3; sourceTree = "<group>"; };
+		21F5534D2123156A0075B6C9 /* bass_drum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bass_drum.mp3; sourceTree = "<group>"; };
+		21F5534E2123156A0075B6C9 /* Japanese_drum1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Japanese_drum1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +111,20 @@
 		214A8F1821187E6C00598FBB /* MyFirstApp */ = {
 			isa = PBXGroup;
 			children = (
-				214A8F1921187E6C00598FBB /* AppDelegate.swift */,
+				214A8F4721187E9600598FBB /* Setting */,
 				214A8F1B21187E6C00598FBB /* ViewController.swift */,
 				214A8F1D21187E6C00598FBB /* Main.storyboard */,
 				214A8F2021187E6D00598FBB /* Assets.xcassets */,
+				214A8F1921187E6C00598FBB /* AppDelegate.swift */,
 				214A8F2221187E6D00598FBB /* LaunchScreen.storyboard */,
 				214A8F2521187E6D00598FBB /* Info.plist */,
+				21A35990211B3004004E33D4 /* JC.mp3 */,
+				21A3598E211B190D004E33D4 /* 于文文《體面》動態歌詞版 【前任3再見前任 插曲】.mp3 */,
+				21F5534D2123156A0075B6C9 /* bass_drum.mp3 */,
+				21F5534C2123156A0075B6C9 /* drum1.mp3 */,
+				21F5534B2123156A0075B6C9 /* guitar.mp3 */,
+				21F5534E2123156A0075B6C9 /* Japanese_drum1.mp3 */,
+				21F5534A2123156A0075B6C9 /* small_drum1.mp3 */,
 			);
 			path = MyFirstApp;
 			sourceTree = "<group>";
@@ -123,6 +145,13 @@
 				214A8F3B21187E6D00598FBB /* Info.plist */,
 			);
 			path = MyFirstAppUITests;
+			sourceTree = "<group>";
+		};
+		214A8F4721187E9600598FBB /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +258,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F553512123156A0075B6C9 /* drum1.mp3 in Resources */,
+				21F5534F2123156A0075B6C9 /* small_drum1.mp3 in Resources */,
+				21A35991211B3004004E33D4 /* JC.mp3 in Resources */,
+				21A3598F211B190D004E33D4 /* 于文文《體面》動態歌詞版 【前任3再見前任 插曲】.mp3 in Resources */,
 				214A8F2421187E6D00598FBB /* LaunchScreen.storyboard in Resources */,
+				21F553502123156A0075B6C9 /* guitar.mp3 in Resources */,
+				21F553522123156A0075B6C9 /* bass_drum.mp3 in Resources */,
 				214A8F2121187E6D00598FBB /* Assets.xcassets in Resources */,
 				214A8F1F21187E6C00598FBB /* Main.storyboard in Resources */,
+				21F553532123156A0075B6C9 /* Japanese_drum1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,14 +466,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7GN9P68XR;
 				INFOPLIST_FILE = MyFirstApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = quiver.MyFirstApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,14 +487,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7GN9P68XR;
 				INFOPLIST_FILE = MyFirstApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = quiver.MyFirstApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
